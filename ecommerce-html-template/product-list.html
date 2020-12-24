@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Learndemy</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="eCommerce HTML Template Free Download" name="keywords" />
+    <meta content="eCommerce HTML Template Free Download" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Libraries -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Bottom Bar Start -->
+    <div class="bottom-bar">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-md-1">
+            <div class="logo">
+              <a href="index.html">
+                <img src="img/logo.png" alt="Logo" />
+              </a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Category
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Mobile</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Web</a>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="search">
+              <input type="text" placeholder="Search" />
+              <button><i class="fa fa-search"></i></button>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="user">
+                <div class="row ml-5">
+              <a href="cart.html" class="btn cart mt-2">
+                <i class="fa fa-shopping-cart"></i>
+                <span>(0)</span>
+              </a>
+              <div class="dropdown">
+                <a class="btn btn-danger dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-user-circle"></i>
+                </a>
+              
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Log out</a></li>
+                </ul>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bottom Bar End -->
+
+    <!-- Product List Start -->
+    <div class="product-view">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="product-view-top">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="product-search">
+                    <input type="email" value="Search" />
+                    <button><i class="fa fa-search"></i></button>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="product-short">
+                    <div class="dropdown">
+                      <div class="dropdown-toggle" data-toggle="dropdown">
+                        Product short by
+                      </div>
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a href="#" class="dropdown-item">Newest</a>
+                        <a href="#" class="dropdown-item">Popular</a>
+                        <a href="#" class="dropdown-item">Most sale</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="product-price-range">
+                    <div class="dropdown">
+                      <div class="dropdown-toggle" data-toggle="dropdown">
+                        Product price range
+                      </div>
+                      <div class="dropdown-menu dropdown-menu-right">
+                        <a href="#" class="dropdown-item">$0 to $50</a>
+                        <a href="#" class="dropdown-item">$51 to $100</a>
+                        <a href="#" class="dropdown-item">$101 to $150</a>
+                        <a href="#" class="dropdown-item">$151 to $200</a>
+                        <a href="#" class="dropdown-item">$201 to $250</a>
+                        <a href="#" class="dropdown-item">$251 to $300</a>
+                        <a href="#" class="dropdown-item">$301 to $350</a>
+                        <a href="#" class="dropdown-item">$351 to $400</a>
+                        <a href="#" class="dropdown-item">$401 to $450</a>
+                        <a href="#" class="dropdown-item">$451 to $500</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <h1 class="title mb-5">IT & Software Courses</h1>
+            <div class="product">
+              <div class="section-header">
+                <h2>Courses to get you started</h2>
+              </div>
+            </div>
+            <div class="container text-center my-3">
+              <div class="row mx-auto my-auto">
+                <div
+                  id="myCarousel"
+                  class="carousel slide w-100"
+                  data-ride="carousel"
+                >
+                  <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item py-5 active">
+                      <div class="row">
+                        <div class="col-sm-3">
+                          <div class="card">
+                            <img
+                              src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                              class="card-img-top"
+                              alt="..."
+                            />
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">
+                                Some quick example text to build on the card
+                                title and make up the bulk of the card's
+                                content.
+                              </p>
+                              <a href="#!" class="btn btn-primary">Button</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-3">
+                          <div class="card">
+                            <img
+                              src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                              class="card-img-top"
+                              alt="..."
+                            />
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">
+                                Some quick example text to build on the card
+                                title and make up the bulk of the card's
+                                content.
+                              </p>
+                              <a href="#!" class="btn btn-primary">Button</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-3">
+                          <div class="card">
+                            <img
+                              src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                              class="card-img-top"
+                              alt="..."
+                            />
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">
+                                Some quick example text to build on the card
+                                title and make up the bulk of the card's
+                                content.
+                              </p>
+                              <a href="#!" class="btn btn-primary">Button</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-3">
+                          <div class="card">
+                            <img
+                              src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                              class="card-img-top"
+                              alt="..."
+                            />
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">
+                                Some quick example text to build on the card
+                                title and make up the bulk of the card's
+                                content.
+                              </p>
+                              <a href="#!" class="btn btn-primary">Button</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item py-5">
+                      <div class="row">
+                        <div class="col-sm-3">
+                          <div class="card">
+                            <img
+                              src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                              class="card-img-top"
+                              alt="..."
+                            />
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">
+                                Some quick example text to build on the card
+                                title and make up the bulk of the card's
+                                content.
+                              </p>
+                              <a href="#!" class="btn btn-primary">Button</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-3">
+                          <div class="card">
+                            <img
+                              src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                              class="card-img-top"
+                              alt="..."
+                            />
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">
+                                Some quick example text to build on the card
+                                title and make up the bulk of the card's
+                                content.
+                              </p>
+                              <a href="#!" class="btn btn-primary">Button</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-3">
+                          <div class="card">
+                            <img
+                              src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                              class="card-img-top"
+                              alt="..."
+                            />
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">
+                                Some quick example text to build on the card
+                                title and make up the bulk of the card's
+                                content.
+                              </p>
+                              <a href="#!" class="btn btn-primary">Button</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-3">
+                          <div class="card">
+                            <img
+                              src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                              class="card-img-top"
+                              alt="..."
+                            />
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">
+                                Some quick example text to build on the card
+                                title and make up the bulk of the card's
+                                content.
+                              </p>
+                              <a href="#!" class="btn btn-primary">Button</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button
+                    class="carousel-control-prev text-dark"
+                    href="#myCarousel"
+                    role="button"
+                    data-slide="prev"
+                  >
+                    <span class="fa fa-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next text-dark"
+                    href="#myCarousel"
+                    role="button"
+                    data-slide="next"
+                  >
+                    <span class="fa fa-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="product">
+              <div class="section-header">
+                <h1>All IT & Software courses</h1>
+              </div>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <a href="#">
+                    <div class="col-md-12 mb-4 mx-auto">
+                      <div
+                        class="d-sm-flex align-items-center justify-content-between"
+                      >
+                        <div class="d-sm-flex align-items-center">
+                          <img
+                            src="https://source.unsplash.com/random/200x200?sig=1"
+                            width="60px"
+                            class="rounded-circle mr-3"
+                            alt=""
+                          />
+                          <div class="mb-3 mb-sm-0">
+                            <p class="font-weight-bold mb-0">Python course</p>
+                            <small class="text-secondary"
+                              >Lorem ipsum dolor, sit amet consectetur
+                              adipisicing elit. Sunt, iste!</small
+                            >
+                            <div>
+                              <span class="badge badge-warning"
+                                >Best seller</span
+                              >
+                              <span class="badge badge-warning">Beginner</span>
+                            </div>
+                          </div>
+                        </div>
+                        <span class="fa fa-star checked">4.6</span>
+                        <span class="fas fa-users">1,113</span>
+                        <h3 class="mb-0 p-0 font-weight-bold">$6.50</h3>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="list-group-item">
+                  <a href="#">
+                    <div class="col-md-12 mb-4 mx-auto">
+                      <div
+                        class="d-sm-flex align-items-center justify-content-between"
+                      >
+                        <div class="d-sm-flex align-items-center">
+                          <img
+                            src="https://source.unsplash.com/random/200x200?sig=2"
+                            width="60px"
+                            class="rounded-circle mr-3"
+                            alt=""
+                          />
+                          <div class="mb-3 mb-sm-0">
+                            <p class="font-weight-bold mb-0">Python course</p>
+                            <small class="text-secondary"
+                              >Lorem ipsum dolor, sit amet consectetur
+                              adipisicing elit. Sunt, iste!</small
+                            >
+                            <div>
+                              <span class="badge badge-warning"
+                                >Best seller</span
+                              >
+                              <span class="badge badge-warning">Beginner</span>
+                            </div>
+                          </div>
+                        </div>
+                        <span class="fa fa-star checked">4.6</span>
+                        <span class="fas fa-users">1,113</span>
+                        <h3 class="mb-0 p-0 font-weight-bold">$6.50</h3>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="list-group-item">
+                  <a href="#">
+                    <div class="col-md-12 mb-4 mx-auto">
+                      <div
+                        class="d-sm-flex align-items-center justify-content-between"
+                      >
+                        <div class="d-sm-flex align-items-center">
+                          <img
+                            src="https://source.unsplash.com/random/200x200?sig=3"
+                            width="60px"
+                            class="rounded-circle mr-3"
+                            alt=""
+                          />
+                          <div class="mb-3 mb-sm-0">
+                            <p class="font-weight-bold mb-0">Python course</p>
+                            <small class="text-secondary"
+                              >Lorem ipsum dolor, sit amet consectetur
+                              adipisicing elit. Sunt, iste!</small
+                            >
+                            <div>
+                              <span class="badge badge-warning"
+                                >Best seller</span
+                              >
+                              <span class="badge badge-warning">Beginner</span>
+                            </div>
+                          </div>
+                        </div>
+                        <span class="fa fa-star checked">4.6</span>
+                        <span class="fas fa-users">1,113</span>
+                        <h3 class="mb-0 p-0 font-weight-bold">$6.50</h3>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- Pagination Start -->
+            <div class="col-md-12 mt-3">
+              <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1">Previous</a>
+                  </li>
+                  <li class="page-item active">
+                    <a class="page-link" href="#">1</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <!-- Pagination Start -->
+          </div>
+
+          <!-- Side Bar Start -->
+          <div class="col-lg-4 sidebar">
+            <div class="sidebar-widget brands">
+              <h2 class="title">Topic</h2>
+              <ul>
+                <li><a href="#">Nulla </a><span>(45)</span></li>
+                <li><a href="#">Curabitur </a><span>(34)</span></li>
+                <li><a href="#">Nunc </a><span>(67)</span></li>
+                <li><a href="#">Ullamcorper</a><span>(74)</span></li>
+                <li><a href="#">Fusce </a><span>(89)</span></li>
+                <li><a href="#">Sagittis</a><span>(28)</span></li>
+              </ul>
+            </div>
+
+            <div class="sidebar-widget tag">
+              <h2 class="title">Tags Cloud</h2>
+              <a href="#">Lorem ipsum</a>
+              <a href="#">Vivamus</a>
+              <a href="#">Phasellus</a>
+              <a href="#">pulvinar</a>
+              <a href="#">Curabitur</a>
+              <a href="#">Fusce</a>
+              <a href="#">Sem quis</a>
+              <a href="#">Mollis metus</a>
+              <a href="#">Sit amet</a>
+              <a href="#">Vel posuere</a>
+              <a href="#">orci luctus</a>
+              <a href="#">Nam lorem</a>
+            </div>
+          </div>
+          <!-- Side Bar End -->
+        </div>
+      </div>
+    </div>
+    <!-- Product List End -->
+
+    <!-- Footer Start -->
+    <div class="footer">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-widget">
+              <h2>Follow Us</h2>
+              <div class="contact-info">
+                <div class="social">
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fab fa-linkedin-in"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                  <a href=""><i class="fab fa-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-widget">
+              <h2>About Us</h2>
+              <ul>
+                <li>Nigga 046</li>
+                <li>Nigga 045</li>
+                <li>Nigga 024</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
